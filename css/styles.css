@@ -12,7 +12,7 @@ body{
 
   /* Style all font awesome icons */
 .fa {
-  font-size: 48px;
+  font-size: 25px;
   border-radius: 50%;
 }
 /* Instagram */
@@ -38,19 +38,22 @@ body{
     width: 100%;
     top: 50;
     font-weight: 400;
-    
+  
   }
-  #welcome-section
-{
+  #welcome-section {
 display: flex;
 flex-direction:column;
 font-family: 'Mukta', sans-serif;
-font-size: 20px;
+font-size: 50px;
 justify-content:left;
-align-items:center;
+align-items:left;
 color: #082a6f;
 height: 100vh;
+padding-top: 100px;
 
+}
+p {
+  font-size: 30px;
 }
 
  
@@ -63,7 +66,7 @@ height: 100vh;
   nav a{
     color:white;
     text-transform: capitalize;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
     font-size: 1.75em;
     text-decoration: none;
@@ -72,12 +75,39 @@ height: 100vh;
   }
 
   body {
-    background-image: url("/_23_background-wallpaper-for-ppt_2835910516.jpg");
+    background-image: url("/img/_23_background-wallpaper-for-ppt_2835910516.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
    }
-   .welcome-section{
+  
+   #contact {
+    margin-top: 800px;
+    color: #125688;
+    position: absolute;
+    left: 150px;
+    width: 200px;
+    height: 120px;
     
    }
+   
+   img {
+    border-radius: 15px;
+    /* border: 10px solid rgb(247, 184, 184); */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  text-align: center;
+  padding-top: 0px;
+   }
+   div.polaroid {
+    width: 80%;
+    
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
+  
+  
+   

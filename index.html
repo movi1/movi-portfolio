@@ -8,7 +8,8 @@
     <title>movi portfolio</title>
 </head>
 
-<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link
@@ -19,39 +20,112 @@
 
     <nav id="navbar">
         <a href="#welcome-section">Home</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#projects">Portfolio</a>
+        <a href="#welcome-section">About</a>
+        <a href="/contact.html">Contact</a>
 
         <!--Add font awsome icons-->
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="https://github.com/movi1" id="profile-link" target="_blank" class="fa fa-github"></a>
+        <a href="#" class="fa-brands fa-facebook"></a>
+        <a href="#" class="fa-brands fa-instagram"></a>
+        <a href="https://github.com/movi1" id="profile-link" target="_blank" class="fa-brands fa-github"></a>
     </nav>
-    <!--welcome section-->
 
-    <section id="welcome-section">
-            <h1 class="about_me">Moira Corradini</h1>
-            <h2> Web Developer</h2>
-            <p>Hi I am Moira,<br> I'm a passionate <br>front-end developer <br>based in Irby,Wirral,UK<br>
-                with a desire to learn and <br> grow in a collaborative <br> team environment.</p>
 
-        
-    </section>
 
-    <a id="projects--link"></a>
-    <section id="projects">
 
-        <div class="container--projects">
-            <div class="project-tile">
-                <h3 class="project-name">Tribute-page</h3>
-                <a href="https://movi1.github.io/tribute-page/" target="_blank" title="Tribute-page"><img
-                        class="img--project" src="https://movi1.github.io/tribute-page/"></a>
+
+
+    <!--about_me-->
+    <div class="container">
+
+        <section id="welcome-section">
+            <div class="row">
+                <div class="col">
+                    <h1 class="about_me">Hi, I am Moira Corradini</h1>
+                    <h2> Web Developer</h2>
+                    <p> I'm a passionate front-end developer <br>based in Irby, Wirral, UK
+                        with a desire to learn and <br> grow in a collaborative team environment.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!--portfolio-->
+        <section id="projects">
+
+            <div class="row">
 
 
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4 project-tile polaroid">
+                    <div class="bg-white rounded shadow-sm border"><img src="/img/dali.jpg" alt=""
+                            class="img-fluid card-img-top ">
+                        <div class="p-4">
+                            <a href="https://github.com/movi1" target="_blank"><i class="fa fa-github"></i> View
+                                Tribute Page</a>
+                            <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit</p>
+                            <!-- <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                        <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPG</span></p>
+                        <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                      </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End -->
+
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4 polaroid">
+                    <div class="bg-white rounded shadow-sm border"><img src="/img/landing-page.jpg" alt=""
+                            class="img-fluid card-img-top ">
+                        <div class="p-4">
+
+
+                            <a href="https://github.com/movi1" target="_blank"><i class="fa-brands fa-github"></i>
+                                View Landing Page</a>
+                            <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit</p>
+                            <!-- <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                                          <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPG</span></p>
+                                          <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                                        </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End -->
+
+                <!-- Gallery item -->
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4 polaroid">
+                    <div class="bg-white rounded shadow-sm border "><img src="/img/technical-d-page.jpg" alt=""
+                            class="img-fluid card-img-top">
+                        <div class="p-4">
+                           
+                            <a href="https://github.com/movi1" target="_blank"><i class="fa-brands fa-github"></i>
+                                View Technical Page</a>
+                            <p class="small text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit</p>
+                            <!-- <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                          <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span class="font-weight-bold">JPG</span></p>
+                          <div class="badge badge-danger px-3 rounded-pill font-weight-normal">New</div>
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- End -->
+
+
+            </div>
+        </section>
+            <div class="py-5 text-right"><a href="https://github.com/movi1"
+                    class="btn btn-dark px-5 py-3 text-uppercase">Show me more</a>
+            </div>
+
+       
+
+        <!-- End of container-->
+    </div>
 
 
 
@@ -73,6 +147,8 @@
 
     <!-- freecodecamp test button -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <script src="https://kit.fontawesome.com/6c3fe46c32.js" crossorigin="anonymous"></script>
 
 
 </body>
